@@ -49,7 +49,7 @@ export const achievements: Achievement[] = [
     kind: "in-progress",
     date: "2026",
     detail: "Robotics and drone initiative.",
-    members: ["sanskaar", "aanchal"],
+    members: ["sanskaar", "aanchal", "pritam", "prithvi"],
     confirm: "Participation status to be confirmed.",
   },
   {

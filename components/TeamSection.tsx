@@ -7,14 +7,6 @@ import { team } from "@/data/team";
 import type { Claim, Member } from "@/data/types";
 import { ClaimText, Github, Heading, Linkedin, Reveal, Section } from "./ui";
 
-/** Each portrait gets its own proportions and offset so the row does not read as four identical cards. */
-const layouts: Record<string, { cell: string; aspect: string }> = {
-  sanskaar: { cell: "lg:col-span-5", aspect: "aspect-[4/5]" },
-  aanchal: { cell: "lg:col-span-3 lg:mt-16", aspect: "aspect-[3/4]" },
-  pritam: { cell: "lg:col-span-4 lg:mt-6", aspect: "aspect-square" },
-  prithvi: { cell: "lg:col-span-4 lg:-mt-10", aspect: "aspect-[4/5]" },
-};
-
 function Portrait({ m }: { m: Member }) {
   if (m.photo) {
     return <Image src={m.photo} alt={`Portrait of ${m.name}`} fill sizes="(min-width:1024px) 33vw, 100vw" className="object-cover" />;
@@ -53,11 +45,11 @@ export default function TeamSection() {
       <Heading sub="Four founders with different strengths. Open a profile to see what each person brings.">
         Meet the four co-founders
       </Heading>
-      <ul className="grid gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-12">
+      <ul className="grid gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
         {team.map((m, i) => {
           const expanded = openId === m.id;
           return (
-            <li key={m.id} className={layouts[m.id].cell}>
+            <li key={m.id}>
               <Reveal delay={i * 0.08}>
                 <button
                   onClick={() => setOpenId(expanded ? null : m.id)}
@@ -65,7 +57,7 @@ export default function TeamSection() {
                   aria-controls="profile-panel"
                   className="group block w-full text-left"
                 >
-                  <div className={`relative w-full overflow-hidden border border-line transition-colors group-hover:border-blue ${layouts[m.id].aspect}`}>
+                  <div className={`relative w-full overflow-hidden border border-line transition-colors group-hover:border-blue aspect-[4/5]`}>
                     <Portrait m={m} />
                     <span className="absolute right-3 top-3 grid size-9 place-items-center bg-bg/80 transition-transform group-hover:rotate-90">
                       <Plus size={18} aria-hidden="true" />

@@ -16,7 +16,7 @@ npm run build
 All content lives in `data/`. Components never hold facts.
 
 - `team.ts` profiles, `ventures.ts` funding, `achievements.ts` results
-- `capabilities.ts`, `projects.ts`, `site.ts` (email, video, stats)
+- `capabilities.ts`, `projects.ts`, `site.ts` (email, stats)
 - Items marked `confirm` render a "to confirm" tag until verified
 - Photos go in `public/team/` and are referenced by `photo` in `team.ts`
 - The funding total is the sum of the venture entries

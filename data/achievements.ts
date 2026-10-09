@@ -55,10 +55,9 @@ export const achievements: Achievement[] = [
   {
     id: "isro",
     title: "ISRO robotics project",
-    kind: "in-progress",
-    date: "2026 to 2027",
-    detail: "ISRO related robotics project.",
+    kind: "participation",
+    detail: "Completed. Reached the top 30 teams, as reported by the team.",
     members: ["sanskaar", "aanchal"],
-    confirm: "Exact project names and involvement to be confirmed.",
+    confirm: "Exact project name, year and team members to be confirmed.",
   },
 ];

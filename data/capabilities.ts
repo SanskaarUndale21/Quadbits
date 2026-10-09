@@ -26,7 +26,7 @@ export const capabilities: Capability[] = [
     label: "Robotics and drones",
     group: "technical",
     members: ["sanskaar", "aanchal"],
-    evidence: { text: "SkyX drone venture. Yantra, NIDAR 2026 and ISRO related work, status to be confirmed.", confirm: true },
+    evidence: { text: "SkyX drone venture. Eyantra, NIDAR 2026 and ISRO related work, status to be confirmed.", confirm: true },
     pairsWith: ["embedded", "prototyping"],
   },
   {

@@ -37,7 +37,7 @@ export const achievements: Achievement[] = [
   },
   {
     id: "yantra",
-    title: "Yantra",
+    title: "Eyantra",
     kind: "participation",
     detail: "Robotics initiative.",
     members: ["sanskaar", "aanchal"],

@@ -16,7 +16,7 @@ export const categories: ProjectCategory[] = [
 export const projects: Project[] = [
   {
     id: "scyce",
-    name: "Scyce",
+    name: "SkyX",
     category: "Startup products",
     problem: "To be supplied by the team.",
     solution: "A drone technology venture co-founded by Sanskaar and Aanchal.",

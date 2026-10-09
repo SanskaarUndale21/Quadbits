@@ -11,7 +11,7 @@ export const ventures: Venture[] = [
   },
   {
     id: "scyce",
-    name: "Scyce",
+    name: "SkyX",
     founders: ["sanskaar", "aanchal"],
     fundingLakh: 4.5,
     source: { text: "Funding scheme or awarding organisation to be supplied", confirm: true },

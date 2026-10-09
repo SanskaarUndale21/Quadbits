@@ -25,8 +25,8 @@ export const projects: Project[] = [
     status: "Awaiting team input",
   },
   {
-    id: "oribold",
-    name: "OriBold",
+    id: "orivolt",
+    name: "OriVolt",
     category: "Startup products",
     problem: "To be supplied by the team.",
     solution: "A venture co-founded by Aanchal and Pritam.",

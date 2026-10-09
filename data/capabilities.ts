@@ -9,7 +9,7 @@ export const capabilities: Capability[] = [
     id: "software",
     label: "Software and web",
     group: "technical",
-    members: ["sanskaar", "aanchal", "prithvi"],
+    members: ["sanskaar", "aanchal", "pritam", "prithvi"],
     evidence: { text: "Freelance software work and hackathon builds." },
     pairsWith: ["security", "prototyping"],
   },

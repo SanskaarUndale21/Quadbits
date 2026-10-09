@@ -50,7 +50,7 @@ export const team: Member[] = [
     technical: [ok("Electronics and Communication Engineering student")],
     nonTechnical: [tbc("Strengths to be supplied")],
     startups: [ok("Co-founder of OriVolt")],
-    hackathons: [tbc("Hackathon participation to be supplied")],
+    hackathons: [ok("Top 20 among 270 teams, Srusthi Hackathon")],
     awards: [tbc("Awards to be supplied")],
     projects: [tbc("Projects to be supplied")],
     links: {},

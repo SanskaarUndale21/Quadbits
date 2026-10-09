@@ -60,4 +60,12 @@ export const achievements: Achievement[] = [
     members: ["sanskaar", "aanchal"],
     confirm: "Exact project name, year and team members to be confirmed.",
   },
+  {
+    id: "srusthi",
+    title: "Srusthi Hackathon",
+    kind: "participation",
+    detail: "Finished in the top 20 among 270 teams, as reported by the team.",
+    members: ["pritam"],
+    confirm: "Exact event name spelling, year and team members to be confirmed.",
+  },
 ];

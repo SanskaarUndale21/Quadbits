@@ -19,7 +19,7 @@ export const ventures: Venture[] = [
   },
   {
     id: "prithvi-startup",
-    name: "Venture name to be supplied",
+    name: "Annora",
     founders: ["prithvi"],
     fundingLakh: 4,
     source: { text: "Funding scheme to be supplied", confirm: true },

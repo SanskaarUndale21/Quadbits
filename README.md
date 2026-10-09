@@ -1,20 +1,37 @@
 # Quadbits
 
-Personal portfolio and interactive project showcase for **Prithvi Hiremath** — CS Undergraduate at SGBIT Belagavi.
+Welcome to **Quadbits** — a team submission and project showcase for the hackathon.
 
-Live Website: [https://quadbits.netlify.app/](https://quadbits.netlify.app/)
+🌐 Live Site: [https://quadbits.netlify.app/](https://quadbits.netlify.app/)
 
-## Featured Projects
+---
 
-- **Annora**: Automated cooking system powered by Raspberry Pi 4B and ESP32 with recipe engine, nutritional dashboard, and voice-command interface.
-- **RakshaPay**: On-device financial fraud detection application.
-- **Cybersecurity & CTF**: Flag capture, threat modelling, and security-first engineering.
+## About Team Quadbits
 
-## Setup & Local Development
+Quadbits is a 4-member hackathon team of Computer Science undergraduates dedicated to shipping end-to-end solutions combining software engineering, hardware control, machine learning, and cybersecurity.
 
-This project is built using vanilla HTML, CSS, and JavaScript.
+### Core Focus & Capabilities
 
-To run locally, simply open `index.html` in your browser or start a local static server:
+- 🤖 **Hardware & Embedded IoT**: Autonomous hardware control loops using Raspberry Pi 4B and ESP32.
+- 🛡️ **On-Device ML & Mobile Security**: Privacy-first, local transaction safety and fraud detection engines.
+- 🚩 **Cybersecurity & CTF**: Threat modelling, secure authentication, anti-phishing defense, and CTF competition experience.
+- ⚡ **Full-Stack Development**: Modern web applications, interactive visual explainer engines, and scalable backends.
+
+---
+
+## Featured Builds
+
+### 1. Annora — Autonomous Cooking System
+An autonomous cooking machine controlled by an integrated hardware loop (Raspberry Pi 4B & ESP32) paired with an intuitive companion app, recipe engine, live nutritional dashboard, and voice-command interface.
+
+### 2. RakshaPay — On-Device Fraud Detection
+A mobile security platform engineered to detect payment scams, fake collect requests, lookalike phishing links, and social engineering vectors entirely on-device to protect user privacy.
+
+---
+
+## Local Development
+
+Run the web showcase locally using any static server:
 
 ```bash
 # Using Python
@@ -24,4 +41,4 @@ python -m http.server 8000
 npx serve .
 ```
 
-Open `http://localhost:8000` in your web browser.
+Open `http://localhost:8000` in your browser.

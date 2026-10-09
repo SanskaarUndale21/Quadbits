@@ -10,8 +10,8 @@ export const kindLabels: Record<AchievementKind, string> = {
 
 export const achievements: Achievement[] = [
   {
-    id: "code-bharta",
-    title: "Code Bharta 2025",
+    id: "code-bharat",
+    title: "Code Bharat 2025",
     kind: "win",
     date: "2025",
     prize: "₹50,000",

@@ -21,7 +21,7 @@ export const team: Member[] = [
     ],
     hackathons: [ok("About 10 hackathons")],
     awards: [
-      ok("Code Bharta 2025 winner with the team, ₹50,000"),
+      ok("Code Bharat 2025 winner with the team, ₹50,000"),
       ok("First place, Agamya Cybertech Hackathon (CTF) with Aanchal, ₹50,000"),
     ],
     projects: [tbc("Robotics: Eyantra, NIDAR 2026, ISRO related work. Participation status to be confirmed")],

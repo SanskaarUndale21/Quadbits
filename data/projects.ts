@@ -35,8 +35,8 @@ export const projects: Project[] = [
     status: "Awaiting team input",
   },
   {
-    id: "code-bharta-build",
-    name: "Code Bharta 2025 winning build",
+    id: "code-bharat-build",
+    name: "Code Bharat 2025 winning build",
     category: "Hackathon prototypes",
     problem: "To be supplied by the team.",
     solution: "To be supplied by the team.",

@@ -44,6 +44,7 @@ export const team: Member[] = [
   {
     id: "pritam",
     name: "Pritam Pattar",
+    photo: "/team/pritam.jpeg",
     headline: "Co-founder of OriVolt. Electronics and Communication Engineering.",
     statement: "Personal statement to be supplied.",
     technical: [ok("Electronics and Communication Engineering student")],

@@ -58,7 +58,7 @@ export const capabilities: Capability[] = [
     label: "Coordination and execution",
     group: "business",
     members: ["sanskaar", "aanchal", "pritam", "prithvi"],
-    evidence: { text: "IEEE and MDCK leadership roles, to be confirmed.", confirm: true },
+    evidence: { text: "IEEE and MDC leadership roles." },
     pairsWith: ["business"],
   },
 ];

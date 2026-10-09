@@ -29,9 +29,9 @@ export const projects: Project[] = [
     name: "OriVolt",
     category: "Startup products",
     problem: "To be supplied by the team.",
-    solution: "A venture co-founded by Aanchal and Pritam.",
+    solution: "A venture co-founded by Pritam.",
     stack: [],
-    members: ["aanchal", "pritam"],
+    members: ["pritam"],
     status: "Awaiting team input",
   },
   {

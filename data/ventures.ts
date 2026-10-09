@@ -4,7 +4,7 @@ export const ventures: Venture[] = [
   {
     id: "orivolt",
     name: "OriVolt",
-    founders: ["aanchal", "pritam"],
+    founders: ["pritam"],
     fundingLakh: 4.5,
     source: { text: "Karnataka government support, as reported by the team", confirm: true },
     description: { text: "Product description to be supplied by the team.", confirm: true },

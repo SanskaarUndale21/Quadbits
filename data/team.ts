@@ -1,0 +1,71 @@
+import type { Member } from "./types";
+
+const tbc = (text: string) => ({ text, confirm: true });
+const ok = (text: string) => ({ text });
+
+export const team: Member[] = [
+  {
+    id: "sanskaar",
+    name: "Sanskaar Undale",
+    headline: "Co-founder of Scyce. Robotics, security and software.",
+    statement: "Personal statement to be supplied.",
+    technical: [ok("Cybersecurity and CTF problem-solving"), ok("Robotics and drones"), ok("Software development")],
+    nonTechnical: [
+      tbc("IEEE leadership and webmaster role"),
+      ok("Freelancing experience, reported at about ₹30,000 per month"),
+    ],
+    startups: [
+      ok("Co-founder of Scyce, a drone company"),
+      tbc("Worked with QuietDesker, an IIT Madras associated startup"),
+    ],
+    hackathons: [ok("About 10 hackathons")],
+    awards: [
+      ok("Code Bharta 2025 winner with the team, ₹50,000"),
+      ok("First place, Agamya Cybertech Hackathon (CTF) with Aanchal, ₹50,000"),
+    ],
+    projects: [tbc("Robotics: Yantra, NIDAR 2026, ISRO related work. Participation status to be confirmed")],
+    links: {},
+  },
+  {
+    id: "aanchal",
+    name: "Aanchal Gur",
+    headline: "Co-founder of OriBold and Scyce.",
+    statement: "Personal statement to be supplied.",
+    technical: [ok("Cybersecurity and CTF problem-solving"), tbc("Robotics, with Sanskaar")],
+    nonTechnical: [ok("Internship experience"), ok("Founder across two ventures")],
+    startups: [ok("Co-founder of OriBold"), ok("Co-founder of Scyce")],
+    hackathons: [ok("About 4 hackathons")],
+    awards: [ok("First place, Agamya Cybertech Hackathon (CTF) with Sanskaar, ₹50,000")],
+    projects: [tbc("Robotics initiatives with Sanskaar. Exact project and status to be confirmed")],
+    links: {},
+  },
+  {
+    id: "pritam",
+    name: "Pritam Pattar",
+    headline: "Co-founder of OriBold. Electronics and Communication Engineering.",
+    statement: "Personal statement to be supplied.",
+    technical: [ok("Electronics and Communication Engineering student")],
+    nonTechnical: [tbc("Strengths to be supplied")],
+    startups: [ok("Co-founder of OriBold")],
+    hackathons: [tbc("Hackathon participation to be supplied")],
+    awards: [tbc("Awards to be supplied")],
+    projects: [tbc("Projects to be supplied")],
+    links: {},
+  },
+  {
+    id: "prithvi",
+    name: "Prithvi H.",
+    headline: "Co-founder of a funded startup. Hackathon regular.",
+    statement: "Personal statement to be supplied.",
+    technical: [tbc("Technical strengths to be supplied")],
+    nonTechnical: [tbc("MDCK Membership Drive Chair. Organisation and designation to be confirmed")],
+    startups: [ok("Co-founder of a separate venture, reported ₹4 lakh in funding")],
+    hackathons: [ok("About 7 hackathons")],
+    awards: [tbc("Awards to be supplied")],
+    projects: [tbc("Projects to be supplied")],
+    links: {},
+  },
+];
+
+export const memberById = (id: string) => team.find((m) => m.id === id)!;
+export const firstName = (id: string) => memberById(id).name.split(" ")[0];

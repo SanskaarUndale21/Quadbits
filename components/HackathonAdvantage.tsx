@@ -29,7 +29,7 @@ const process = ["Understand the problem", "Design the solution", "Build the MVP
 export default function HackathonAdvantage() {
   return (
     <Section id="why">
-      <Heading sub="What a judge needs to know, backed by the record above.">Why Squadbits?</Heading>
+      <Heading sub="What a judge needs to know, backed by the record above.">Why Quadbits?</Heading>
       <ul className="divide-y divide-line border-y border-line">
         {principles.map((p, i) => (
           <li key={p.title} className="grid gap-3 py-7 md:grid-cols-[1fr_2fr] md:gap-10">

@@ -49,7 +49,7 @@ export default function VentureSection() {
         </p>
         <p className="mt-3 max-w-xl text-sm leading-relaxed text-muted">
           Combined funding reported across three separate ventures founded or co-founded by team members. It is not
-          revenue, a valuation, or funding awarded to Squadbits as a company.
+          revenue, a valuation, or funding awarded to Quadbits as a company.
         </p>
         <div className="mt-6 flex h-3 w-full gap-1" role="img" aria-label={ventures.map((v) => `${v.name} ${formatLakh(v.fundingLakh)}`).join(", ")}>
           {ventures.map((v, i) => (

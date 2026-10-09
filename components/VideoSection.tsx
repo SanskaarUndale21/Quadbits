@@ -82,7 +82,7 @@ export default function VideoSection() {
               <X />
             </button>
             {v.kind === "embed" ? (
-              <iframe src={v.url} title="Squadbits team introduction" allow="fullscreen; picture-in-picture" className="aspect-video w-full" />
+              <iframe src={v.url} title="Quadbits team introduction" allow="fullscreen; picture-in-picture" className="aspect-video w-full" />
             ) : (
               <video src={v.url} poster={v.poster || undefined} controls autoPlay playsInline className="aspect-video w-full bg-black">
                 {v.subtitlesUrl && <track kind="subtitles" src={v.subtitlesUrl} srcLang="en" label="English" default />}

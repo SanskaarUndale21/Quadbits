@@ -1,4 +1,4 @@
-# Squadbits
+# Quadbits
 
 Team portfolio and hackathon showcase. Next.js (App Router), TypeScript, Tailwind CSS 4, Motion.
 

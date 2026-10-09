@@ -28,7 +28,7 @@ function Constellation() {
       viewBox="0 0 420 360"
       className="w-full max-w-md"
       role="img"
-      aria-label="Diagram of the four Squadbits co-founders connected as a team"
+      aria-label="Diagram of the four Quadbits co-founders connected as a team"
     >
       {edges.map(([a, b], i) => {
         const hot = active === a || active === b;
@@ -94,7 +94,7 @@ export default function Hero() {
             Proven to execute.
           </motion.h1>
           <motion.p {...fade(0.3)} className="mt-7 max-w-xl text-lg leading-relaxed text-muted">
-            We are Squadbits: four co-founders combining engineering, technology, competition experience and
+            We are Quadbits: four co-founders combining engineering, technology, competition experience and
             entrepreneurial thinking to build solutions that matter.
           </motion.p>
           <motion.div {...fade(0.45)} className="mt-9 flex flex-col gap-3 sm:flex-row">

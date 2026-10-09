@@ -1,12 +1,12 @@
 import { ventures } from "./ventures";
 
 export const site = {
-  name: "Squadbits",
-  title: "Squadbits | Built to Solve. Proven to Execute.",
+  name: "Quadbits",
+  title: "Quadbits | Built to Solve. Proven to Execute.",
   description:
-    "Squadbits is a team of four engineering student co-founders with hackathon wins, funded ventures and hands-on robotics, cybersecurity and software work.",
+    "Quadbits is a team of four engineering student co-founders with hackathon wins, funded ventures and hands-on robotics, cybersecurity and software work.",
   /** Set to the deployed URL once known. Used for Open Graph. */
-  url: "https://squadbits.vercel.app",
+  url: "https://quadbits.vercel.app",
   /** Fill in when supplied. Hidden from the page while empty. */
   email: "" as string,
   video: {

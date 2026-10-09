@@ -13,7 +13,7 @@ const pillars = [
 export default function StorySection() {
   return (
     <Section id="story">
-      <Heading sub="Squadbits brings together engineering students and founders with experience in competitions, funded ventures, technical projects, internships and leadership.">
+      <Heading sub="Quadbits brings together engineering students and founders with experience in competitions, funded ventures, technical projects, internships and leadership.">
         We don&apos;t just build projects. We build possibilities.
       </Heading>
       <ol className="grid border-y border-line md:grid-cols-3 md:divide-x md:divide-line">

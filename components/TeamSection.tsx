@@ -9,7 +9,7 @@ import { ClaimText, Github, Heading, Linkedin, Reveal, Section } from "./ui";
 
 function Portrait({ m }: { m: Member }) {
   if (m.photo) {
-    return <Image src={m.photo} alt={`Portrait of ${m.name}`} fill sizes="(min-width:1024px) 33vw, 100vw" className="object-cover" />;
+    return <Image src={m.photo} alt={`Portrait of ${m.name}`} fill sizes="(min-width:1024px) 33vw, 100vw" className="object-cover object-top" />;
   }
   const initials = m.name.split(" ").map((p) => p[0]).join("");
   return (

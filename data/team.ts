@@ -7,6 +7,7 @@ export const team: Member[] = [
   {
     id: "sanskaar",
     name: "Sanskaar Undale",
+    photo: "/team/sanskaar.jpeg",
     headline: "Co-founder of SkyX. Robotics, security and software.",
     statement: "Personal statement to be supplied.",
     technical: [ok("Cybersecurity and CTF problem-solving"), ok("Robotics and drones"), ok("Software development")],
@@ -29,6 +30,7 @@ export const team: Member[] = [
   {
     id: "aanchal",
     name: "Aanchal Gur",
+    photo: "/team/aanchal.jpeg",
     headline: "Co-founder of OriVolt and SkyX.",
     statement: "Personal statement to be supplied.",
     technical: [ok("Cybersecurity and CTF problem-solving"), tbc("Robotics, with Sanskaar")],
@@ -55,6 +57,7 @@ export const team: Member[] = [
   {
     id: "prithvi",
     name: "Prithvi H.",
+    photo: "/team/prithvi.jpeg",
     headline: "Co-founder of a funded startup. Hackathon regular.",
     statement: "Personal statement to be supplied.",
     technical: [tbc("Technical strengths to be supplied")],

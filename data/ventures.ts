@@ -3,7 +3,7 @@ import type { Venture } from "./types";
 export const ventures: Venture[] = [
   {
     id: "orivolt",
-    name: "OriVolt",
+    name: "OriVolt (EV QUN)",
     founders: ["pritam"],
     fundingLakh: 4,
     source: { text: "Karnataka government support, as reported by the team", confirm: true },

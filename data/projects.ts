@@ -26,7 +26,7 @@ export const projects: Project[] = [
   },
   {
     id: "orivolt",
-    name: "OriVolt",
+    name: "OriVolt (EV QUN)",
     category: "Startup products",
     problem: "To be supplied by the team.",
     solution: "A venture co-founded by Pritam.",

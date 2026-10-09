@@ -7,7 +7,6 @@ import AchievementTimeline from "@/components/AchievementTimeline";
 import CapabilityMap from "@/components/CapabilityMap";
 import ProjectGallery from "@/components/ProjectGallery";
 import HackathonAdvantage from "@/components/HackathonAdvantage";
-import VideoSection from "@/components/VideoSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import Providers from "@/components/Providers";
@@ -25,7 +24,6 @@ export default function Home() {
         <CapabilityMap />
         <ProjectGallery />
         <HackathonAdvantage />
-        <VideoSection />
         <ContactSection />
       </main>
       <Footer />

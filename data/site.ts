@@ -9,22 +9,6 @@ export const site = {
   url: "https://quadbits.vercel.app",
   /** Fill in when supplied. Hidden from the page while empty. */
   email: "" as string,
-  video: {
-    /** Direct file (mp4/webm) under /public, or an embeddable URL. Empty shows the placeholder. */
-    url: "" as string,
-    kind: "file" as "file" | "embed",
-    poster: "" as string,
-    subtitlesUrl: "" as string,
-    transcriptUrl: "" as string,
-    downloadUrl: "" as string,
-    chapters: [
-      { at: "0:00", label: "Who we are and why we build" },
-      { at: "0:15", label: "Wins and funded ventures" },
-      { at: "0:40", label: "The four founders" },
-      { at: "1:10", label: "Why this team fits the problem" },
-      { at: "1:40", label: "Closing statement" },
-    ],
-  },
 };
 
 /**

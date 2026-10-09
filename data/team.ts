@@ -62,7 +62,7 @@ export const team: Member[] = [
     headline: "Co-founder of a funded startup. Hackathon regular.",
     statement: "Personal statement to be supplied.",
     technical: [tbc("Technical strengths to be supplied")],
-    nonTechnical: [tbc("MDCK Membership Drive Chair. Organisation and designation to be confirmed")],
+    nonTechnical: [ok("IEEE leadership"), ok("MDC Membership Drive Chair")],
     startups: [ok("Co-founder of a separate venture, reported ₹4 lakh in funding")],
     hackathons: [ok("About 7 hackathons")],
     awards: [tbc("Awards to be supplied")],
